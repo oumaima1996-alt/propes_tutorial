@@ -1,0 +1,35 @@
+body{
+  background-color: beige;
+}
+
+.name {
+  text-align: center;
+  border-bottom: 1px solid blueviolet;
+}
+.bio {
+  text-align: center;
+  border: 1px solid blueviolet;
+  border-bottom: 1px solid blueviolet;
+  background-color: coral;
+  
+  border-radius: 2px;
+  height: 200px;
+  margin: 70px;
+  background-color: coral;
+}
+.prof {
+  text-align: center;
+  border: 1px solid blueviolet;
+  border-bottom: 1px solid blueviolet;
+  margin: 70px;
+  border-radius: 2px;
+  height: 200px;
+  background-color: coral;
+
+}
+
+.image{
+  text-align: center;
+  border: 1px solid black;
+  
+}
