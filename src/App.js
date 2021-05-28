@@ -7,7 +7,7 @@ import jci from './ressourcr/jci.png'
 function App() {
   const user = {
     fullName :"Soltani Oumaima",
-    bio:"aziperjzefrgoidofjidopxckdpo",
+    bio:"UN(E) INGÉNIEUR(E) GÉOLOGUE : Effectue des études géologiques et géotechniques le choix des emplacements pour l’extraction de minerais, de pétrole, de gaz naturel, etc. Ils peuvent aussi effectuer des études pour choisir l’emplacement pour des travaux de génie civil (ponts, viaducs, barrages, routes, bâtiments, etc).",
     profession:"ingénieur"
   }
   const alertName =(fullName) => alert(user.fullName)
