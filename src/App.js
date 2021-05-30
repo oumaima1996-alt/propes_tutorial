@@ -3,6 +3,8 @@ import './App.css';
 import Profile from './Profile/Profile.js'
 import Image from './Profile/Image'
 import jci from './ressourcr/jci.png'
+import PropTypes from "prop-types";
+
 
 function App() {
   const user = {
@@ -26,5 +28,11 @@ function App() {
     </div>
   );
 }
+Profile.propTypes = {
+  fullName: PropTypes.string,
+  bio: PropTypes.string
+,
+  profession: PropTypes.string,
+};
 
 export default App;

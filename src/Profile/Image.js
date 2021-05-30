@@ -2,7 +2,7 @@ import React from 'react'
 
 const Image = (props) => {
     return (
-        <div className="image">
+        <div className="image" style = "text-align:center">
             {props.children}
             
         </div>
